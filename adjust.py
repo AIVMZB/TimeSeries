@@ -27,6 +27,8 @@ def adjust_lr(model: keras.Model, data: np.ndarray):
     # Increase the tickmarks size
     plt.tick_params('both', length=10, width=1, which='both')
 
+    plt.show()
+
 
 if __name__ == '__main__':
     model = get_model()
